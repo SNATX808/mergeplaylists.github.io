@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Geist+Mono:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Geist+Mono:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Geist+Mono:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jersey+10&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Tiny5&display=swap');
+
+
+body{
+    background-color: #191919;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    background-color: rgb(63, 63, 63);
+    border-radius: 100px;
+    height: 30px;
+    width: 400px;
+    margin-bottom: 15px;
+    box-shadow: 2px 3px 5px black;
+    border: 3px solid rgba(0, 0, 0, 0);
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    font-family: "Jersey 10", sans-serif;
+}
+
+.input:focus {
+    outline: none !important;
+    border: 3px solid red;
+}
+
+label{
+    color: white;
+    margin: 0 0 0 10px;
+    font-size: 50px;
+    font-family: "Jersey 10", sans-serif;
+}
+
+#login{
+    padding: 100px 0px 0px 0px;
+}
+
+#merge-button{
+    margin-top: 25px;
+    background-color: red;
+    border-radius: 100px;
+    height: 55px;
+    width: 160px;
+    margin-bottom: 15px;
+    box-shadow: 2px 3px 5px black;
+    border: 3px solid rgba(0, 0, 0, 0);
+    font-size: 25px;
+    color: white;
+}
+
+.submit{
+    background-color: red;
+    border-radius: 100px;
+    height: 55px;
+    width: 175px;
+    margin-top: 15px;
+    box-shadow: 2px 3px 5px black;
+    border: 3px solid rgba(0, 0, 0, 0);
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    transition: 2s;
+    font-family: "Tiny5", sans-serif;
+}
+
+.submit:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 15px red;
+
+}
