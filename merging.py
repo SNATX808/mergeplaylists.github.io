@@ -4,8 +4,8 @@ from ytmusicapi import YTMusic
 
 # Spotify Authentication
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id='your_spotify_client_id',
-    client_secret='your_spotify_client_secret',
+    client_id='21c6b1a5496745ca9434016de07d7031',
+    client_secret='e0f503801cb447d9ad08445338bdacb0',
     redirect_uri='http://localhost:8888/callback',
     scope="playlist-read-private"
 ))

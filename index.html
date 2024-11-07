@@ -8,11 +8,19 @@
 </head>
 <body>
     <div id="login">
-        <label for="client-id">Client ID</label><br>
-        <input class="input" id="client-id" type="text"><br>
-        <label for="client-secret">Client secret</label><br>
-        <input class="input" id="client-secret" type="text"><br>
-        <input class="submit" type="submit" value="LOG IN">
+        <form method="post">
+            <label for="client-id">Spotify Playlist URL</label><br>
+            <input class="input" id="client-id" type="text"><br>
+            <label for="client-secret">YouTube Playlist URL</label><br>
+            <input class="input" id="client-secret" type="text"><br>
+            <label for="select-platform">Platform to create a Playlist</label><br>
+            <select id="select-platform">
+                <option value="">-- Please choose an option --</option>
+                <option value="youtube-music">Youtube Music</option>
+                <option value="spotify">Spotify</option>
+            </select><br>
+            <input class="submit" type="submit" value="MERGE">
+        </form>
     </div><br>
 </body>
 </html>
