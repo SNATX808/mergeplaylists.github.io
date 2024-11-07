@@ -11,7 +11,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
 ))
 
 # YouTube Music Authentication
-ytmusic = YTMusic('headers_auth.json')  # You need to create headers_auth.json using ytmusicapi setup
+ytmusic = YTMusic('oauth.json')  # You need to create headers_auth.json using ytmusicapi setup
 
 def get_spotify_tracks(playlist_id):
     results = sp.playlist_tracks(playlist_id)
@@ -55,6 +55,6 @@ def combine_playlists_to_youtube_music(spotify_playlist_id, youtube_playlist_nam
         print("No matching tracks found on YouTube Music.")
 
 # Example usage
-spotify_playlist_id = "your_spotify_playlist_id"
+spotify_playlist_id = "4fIVUy7g4fdAA64pMtn8pX"
 youtube_playlist_name = "My Combined Playlist"
 combine_playlists_to_youtube_music(spotify_playlist_id, youtube_playlist_name)
