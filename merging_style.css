@@ -11,18 +11,7 @@ body{
     align-items: center;
 }
 
-#login{
-    padding: 60px 0px 0px 0px;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-    font-family: "Jersey 10", sans-serif;
-    font-size: 25px;
-}
-
-.button{
+.input{
     background-color: rgb(63, 63, 63);
     border-radius: 100px;
     height: 30px;
@@ -31,22 +20,63 @@ a{
     box-shadow: 2px 3px 5px black;
     border: 3px solid rgba(0, 0, 0, 0);
     padding: 10px;
+    font-size: 25px;
+    color: white;
     transition: 0.5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: "Jersey 10", sans-serif;
 }
 
-.button:focus {
+.input:focus {
     outline: none !important;
     border: 3px solid red;
 }
 
-.button:hover{
-    cursor: pointer;
+label{
+    color: white;
+    margin: 0 0 0 10px;
+    font-size: 50px;
+    font-family: "Jersey 10", sans-serif;
 }
 
-#select-func{
+#login{
+    padding: 60px 0px 0px 0px;
+}
+
+#merge-button{
+    margin-top: 25px;
+    background-color: red;
+    border-radius: 100px;
+    height: 55px;
+    width: 160px;
+    margin-bottom: 15px;
+    box-shadow: 2px 3px 5px black;
+    border: 3px solid rgba(0, 0, 0, 0);
+    font-size: 25px;
+    color: white;
+}
+
+.submit{
+    background-color: red;
+    border-radius: 100px;
+    height: 55px;
+    width: 175px;
+    margin-top: 15px;
+    box-shadow: 2px 3px 5px black;
+    border: 3px solid rgba(0, 0, 0, 0);
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    transition: 2s;
+    font-family: "Tiny5", sans-serif;
+    float: right;
+}
+
+.submit:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 15px red;
+}
+
+#select-platform{
     background-color: rgb(63, 63, 63);
     border-radius: 100px;
     height: 55px;
@@ -60,7 +90,7 @@ a{
     font-family: "Tiny5", sans-serif;
 }
 
-#select-func:focus {
+#select-platform:focus {
     outline: none !important;
     border: 3px solid red;
 }
@@ -68,13 +98,12 @@ a{
 #back-logo{
     position: absolute;
     bottom: 25px;
-    right: 25px;
+    left: 25px;
     width: 100px;
     animation-name: spin;
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
-    border-radius: 200px;
 }
 
 @keyframes spin {
@@ -84,11 +113,4 @@ a{
     to {
         transform:rotate(360deg);
     }
-}
-
-p{
-        color: white;
-        margin: 0 0 0 10px;
-        font-size: 50px;
-        font-family: "Jersey 10", sans-serif;
 }

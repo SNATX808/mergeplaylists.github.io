@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mergifier</title>
+    <link rel="icon" type="image/x-icon" href="images/altLogo.ico">
+    <link rel="stylesheet" href="merging_style.css">
+</head>
+<body>
+    <!-- <img id="back-logo" src="vinylLogo.png" alt="Vinyl Logo"> -->
+    <div id="login">
+        <form method="post">
+            <label for="client-id">Spotify Playlist URL</label><br>
+            <input class="input" id="client-id" type="text"><br>
+            <label for="client-secret">YouTube Playlist URL</label><br>
+            <input class="input" id="client-secret" type="text"><br>
+            <label for="select-platform">Platform to create a Playlist</label><br>
+            <select id="select-platform">
+                <option value="">-- Please choose an option --</option>
+                <option value="youtube-music">Youtube Music</option>
+                <option value="spotify">Spotify</option>
+            </select><br>
+            <input class="submit" type="submit" value="MERGE">
+        </form>
+    </div><br>
+</body>
+</html>
